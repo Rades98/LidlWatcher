@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="App1.Views.LidlPage"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:App1.ViewModels;assembly=App1"
+             x:Name="Page">
+
+  <ContentPage.BindingContext>
+    <viewModels:LidlViewModel />
+  </ContentPage.BindingContext>
+
+  <ContentPage.Content>
+    <StackLayout>
+
+      <CollectionView BackgroundColor="SlateGray"
+                      ItemsSource="{Binding GoodsModels}"
+                      SelectedItem="{Binding SelectedItem}"
+                      SelectionMode="Single">
+        <CollectionView.ItemTemplate>
+          <DataTemplate>
+            <StackLayout Margin="5">
+              <Grid Padding="20">
+                <Grid.RowDefinitions>
+                  <RowDefinition Height="Auto" />
+                  <RowDefinition Height="Auto" />
+                  <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                  <ColumnDefinition Width="Auto" />
+                  <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+                <Image Grid.RowSpan="3"
+                       Aspect="AspectFill"
+                       HeightRequest="60"
+                       Source="{Binding ImageUrl}"
+                       WidthRequest="60" />
+
+                <Label Grid.Column="1"
+                       FontAttributes="Bold"
+                       Text="{Binding Name}" />
+                <StackLayout Grid.Row="1"
+                             Grid.Column="1"
+                             Orientation="Horizontal">
+                  <Label FontAttributes="Italic" Text="Aktuální cena: " />
+                  <Label FontAttributes="Italic" Text="{Binding ActualPrice}" />
+                </StackLayout>
+
+                <StackLayout Grid.Row="2"
+                             Grid.Column="1"
+                             Orientation="Horizontal">
+                  <Label FontAttributes="Italic" Text="Obvyklá cena: " />
+                  <Label FontAttributes="Italic" Text="{Binding UsualPrice}" />
+                </StackLayout>
+
+
+                <VisualStateManager.VisualStateGroups>
+                  <VisualStateGroup Name="CommonStates">
+                    <VisualState Name="Normal">
+                      <VisualState.Setters>
+                        <Setter Property="BackgroundColor" Value="DarkSlateGray" />
+                      </VisualState.Setters>
+                    </VisualState>
+                    <VisualState Name="Selected">
+                      <VisualState.Setters>
+                        <Setter Property="BackgroundColor" Value="Yellow" />
+                      </VisualState.Setters>
+                    </VisualState>
+                  </VisualStateGroup>
+                </VisualStateManager.VisualStateGroups>
+              </Grid>
+            </StackLayout>
+
+          </DataTemplate>
+        </CollectionView.ItemTemplate>
+      </CollectionView>
+
+      <StackLayout Padding="20" BackgroundColor="DimGray">
+        <Grid>
+          <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+          </Grid.RowDefinitions>
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+          </Grid.ColumnDefinitions>
+          <Entry Grid.ColumnSpan="3"
+                 Placeholder="url adresa"
+                 Text="{Binding Url}" />
+          <Button Grid.Row="1"
+                  Grid.Column="0"
+                  Command="{Binding AddUrlCommand}"
+                  Text="Přidat" />
+          <Button Grid.Row="1"
+                  Grid.Column="2"
+                  Command="{Binding DeleteCommand}"
+                  Text="Smazat označený" />
+        </Grid>
+
+      </StackLayout>
+
+    </StackLayout>
+  </ContentPage.Content>
+</ContentPage>

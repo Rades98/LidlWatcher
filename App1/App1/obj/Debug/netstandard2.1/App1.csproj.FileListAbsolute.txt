@@ -1,0 +1,16 @@
+C:\Users\radek.reznicek\Desktop\kody\App1\App1\App1\bin\Debug\netstandard2.1\App1.deps.json
+C:\Users\radek.reznicek\Desktop\kody\App1\App1\App1\bin\Debug\netstandard2.1\App1.dll
+C:\Users\radek.reznicek\Desktop\kody\App1\App1\App1\bin\Debug\netstandard2.1\ref\App1.dll
+C:\Users\radek.reznicek\Desktop\kody\App1\App1\App1\bin\Debug\netstandard2.1\App1.pdb
+C:\Users\radek.reznicek\Desktop\kody\App1\App1\App1\bin\Debug\netstandard2.1\Xamarin.Android.Support.Compat.dll
+C:\Users\radek.reznicek\Desktop\kody\App1\App1\App1\obj\Debug\netstandard2.1\App.xaml.g.cs
+C:\Users\radek.reznicek\Desktop\kody\App1\App1\App1\obj\Debug\netstandard2.1\Views\LidlPage.xaml.g.cs
+C:\Users\radek.reznicek\Desktop\kody\App1\App1\App1\obj\Debug\netstandard2.1\App1.AssemblyInfoInputs.cache
+C:\Users\radek.reznicek\Desktop\kody\App1\App1\App1\obj\Debug\netstandard2.1\App1.AssemblyInfo.cs
+C:\Users\radek.reznicek\Desktop\kody\App1\App1\App1\obj\Debug\netstandard2.1\App1.csproj.CoreCompileInputs.cache
+C:\Users\radek.reznicek\Desktop\kody\App1\App1\App1\obj\Debug\netstandard2.1\XamlC.stamp
+C:\Users\radek.reznicek\Desktop\kody\App1\App1\App1\obj\Debug\netstandard2.1\App1.csproj.CopyComplete
+C:\Users\radek.reznicek\Desktop\kody\App1\App1\App1\obj\Debug\netstandard2.1\App1.dll
+C:\Users\radek.reznicek\Desktop\kody\App1\App1\App1\obj\Debug\netstandard2.1\ref\App1.dll
+C:\Users\radek.reznicek\Desktop\kody\App1\App1\App1\obj\Debug\netstandard2.1\App1.pdb
+C:\Users\radek.reznicek\Desktop\kody\App1\App1\App1\obj\Debug\netstandard2.1\App1.csprojAssemblyReference.cache

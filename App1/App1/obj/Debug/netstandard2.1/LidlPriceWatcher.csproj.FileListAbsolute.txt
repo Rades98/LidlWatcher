@@ -1,0 +1,8 @@
+C:\Users\radek.reznicek\Desktop\kody\App1\App1\App1\obj\Debug\netstandard2.1\App.xaml.g.cs
+C:\Users\radek.reznicek\Desktop\kody\App1\App1\App1\obj\Debug\netstandard2.1\Views\LidlPage.xaml.g.cs
+C:\Users\radek.reznicek\Desktop\kody\App1\App1\App1\obj\Debug\netstandard2.1\LidlPriceWatcher.AssemblyInfoInputs.cache
+C:\Users\radek.reznicek\Desktop\kody\App1\App1\App1\obj\Debug\netstandard2.1\LidlPriceWatcher.AssemblyInfo.cs
+C:\Users\radek.reznicek\Desktop\kody\App1\App1\App1\obj\Debug\netstandard2.1\LidlPriceWatcher.csproj.CoreCompileInputs.cache
+C:\Users\radek.reznicek\Desktop\kody\App1\App1\App1\obj\Debug\netstandard2.1\LidlPriceWatcher.dll
+C:\Users\radek.reznicek\Desktop\kody\App1\App1\App1\obj\Debug\netstandard2.1\ref\LidlPriceWatcher.dll
+C:\Users\radek.reznicek\Desktop\kody\App1\App1\App1\obj\Debug\netstandard2.1\LidlPriceWatcher.pdb
